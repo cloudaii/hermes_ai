@@ -30,8 +30,9 @@ You can install the Hermes Agent using our automated script or by setting it up 
 Use this single-line command to download and execute the installation script automatically:
 
 ```
-curl -fsSL [https://raw.githubusercontent.com/cloudaii/hermes_ai/main/hermes_install.sh](https://raw.githubusercontent.com/cloudaii/hermes_ai/main/hermes_install.sh) | bash
+curl -fsSL https://raw.githubusercontent.com/cloudaii/hermes_ai/main/hermes_install.sh | bash
 ```
+
 **Mannual instalation**
 
 
