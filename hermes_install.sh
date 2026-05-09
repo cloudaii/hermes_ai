@@ -6,14 +6,14 @@
 set -e
 
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${GRN}                   THEVOIDKERNEL"
+echo -e "${GRN}                   UNLOCKED"
 echo -e "${CYN}=====================================================${RST}"
 
 echo -e "${CYN}=====================================================${RST}"
 echo -e "${GRN}        🚀 Installing Hermes Agent on Termux..."
 echo -e "${CYN}=====================================================${RST}"
 
-echo "📦 Repository: https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android"
+echo "📦 Repository: https://github.com/cloudaii/hermes_ai"
 
 
 # Update packages
@@ -48,7 +48,7 @@ echo "✅ Hermes Agent installed successfully!"
 echo "🔥 Run 'hermes' or 'hermes setup' to start using it"
 echo "📖 Type 'hermes --help' for more options"
 echo ""
-echo "💡 Need help? Visit: https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android"
+echo "💡 Need help? Visit: https://github.com/cloudaii/hermes_ai"
 echo ""
 
 echo "🌐 Run 'hermes gateway' to run deply it"
