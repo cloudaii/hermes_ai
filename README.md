@@ -66,14 +66,19 @@ After setup, Hermes will run as a persistent AI agent on your server, ready to i
 
 
 # 📂 Directory Structure
-|
+
 hermes_ai/
+
 ├── hermes_install.sh   # Installation script
-├── config/             # Configuration files
-├── memory/             # Persistent memory storage
+├── config/     # Configuration files
+
+├── memory/             # Persistent memory 
+storage
+
 ├── modules/            # AI modules and tools
+
 └── README.md           # Documentation
-|
+
 # 💡 Tips for Best Experience
 
 • **Use a dedicated server or VM** to keep Hermes running 24/7.
