@@ -29,11 +29,11 @@ Hermes is ideal for developers, researchers, and AI enthusiasts who want more th
 
 ---
 
-## 🛠️ Installation
+# 🛠️ Installation
 
 Hermes can be installed via an automated script or manually. Before installing, ensure you have a **Linux/macOS environment** or **WSL (Windows Subsystem for Linux)** configured.  
 
-### Option 1: Quick Install (Recommended)
+## Option 1: Quick Install (Recommended)
 
 Run the following single-line command to download and execute the installer automatically:  
 
@@ -41,7 +41,7 @@ Run the following single-line command to download and execute the installer auto
 curl -fsSL https://raw.githubusercontent.com/cloudaii/hermes_ai_agent/main/nous_agent.sh | bash
 ```
 
-**Mannual instalation**
+## Mannual instalation
 
 Prefer to do it yourself? Here's the step-by-step:
 ```
