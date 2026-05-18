@@ -41,7 +41,7 @@ Run the following single-line command to download and execute the installer auto
 curl -fsSL https://raw.githubusercontent.com/cloudaii/hermes_ai_agent/main/nous_agent.sh | bash
 ```
 
-## Mannual instalation
+## Mannual installation
 
 Prefer to do it yourself? Here's the step-by-step:
 ```
@@ -82,7 +82,7 @@ Run for using
 hermes
 ```
 
-**Start gateway**
+## Start gateway
 
 ```
 hermes gateway
