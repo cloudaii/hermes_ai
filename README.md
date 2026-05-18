@@ -38,29 +38,57 @@ Hermes can be installed via an automated script or manually. Before installing, 
 Run the following single-line command to download and execute the installer automatically:  
 
 ```
-curl -fsSL https://raw.githubusercontent.com/cloudaii/hermes_ai/main/hermes_install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cloudaii/hermes_ai_agent/main/nous_agent.sh | bash
 ```
 
 **Mannual instalation**
 
+Prefer to do it yourself? Here's the step-by-step:
+```
+pkg install git
+```
 
 ```
 # Clone rep
-git clone https://github.com/cloudaii/hermes_ai.git
-cd hermes_ai
+git clone https://github.com/cloudaii/hermes_ai_agent.git
+cd hermes_ai_agent
 
 # Make the script executable
-chmod +x hermes_install.sh
+chmod +x agent_install.sh
 # Run the installer
-./hermes_install.sh
+./agent_install.sh
 ```
 
 **start agent**
-Once installed, you can set up and start your Hermes Agent with:
 
+Run these commands one by one:
+
+```
+cd
+proot-distro login ubuntu
+```
+```
+cd hermes-agent
+source venv/bin/activate
+```
+
+Run for setup
 ```
 hermes setup
 ```
+
+Run for using 
+```
+hermes
+```
+
+**Start gateway**
+
+```
+hermes gateway
+```
+
+
 
 After setup, Hermes will run as a persistent AI agent on your server, ready to interact, learn, and automate tasks.
 
@@ -91,6 +119,21 @@ storage
 
 
 • **Customize modules** to make Hermes truly your own AI agent.
+
+# Running Local Models with Ollama
+
+Install ollama
+
+```
+pkg install ollama
+ollama serve
+```
+Run modal 
+
+```
+ollama run gemma4:31b-cloud
+```
+
 
 # 🤖 Join the Community
 
