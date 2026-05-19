@@ -13,7 +13,7 @@ echo -e "${CYN}=====================================================${RST}"
 echo -e "${GRN}        🚀 Installing Hermes Agent on Termux..."
 echo -e "${CYN}=====================================================${RST}"
 
-echo "📦 Repository: https://github.com/cloudaii/hermes_ai"
+echo "📦 Repository: https://github.com/cloudaii/hermes_ai_agent"
 
 
 # Update packages
@@ -48,7 +48,7 @@ echo "✅ Hermes Agent installed successfully!"
 echo "🔥 Run 'hermes' or 'hermes setup' to start using it"
 echo "📖 Type 'hermes --help' for more options"
 echo ""
-echo "💡 Need help? Visit: https://github.com/cloudaii/hermes_ai"
+echo "💡 Need help? Visit: https://github.com/cloudaii/hermes_ai_agent"
 echo ""
 
 echo "🌐 Run 'hermes gateway' to run deply it"
