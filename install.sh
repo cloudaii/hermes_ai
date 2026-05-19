@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Hermes Agent - Termux Installer (Python 3.13 Compatible)
-# Repository: https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android
+# Repository: https://github.com/cloudaii/hermes_ai_agent
 
 set -e
 
@@ -74,4 +74,4 @@ echo -e "${CYN}🔥 Run 'hermes' to start using it${RST}"
 echo -e "${CYN}🔧 Run 'hermes setup' for configuration${RST}"
 echo -e "${CYN}📖 Type 'hermes --help' for more options${RST}"
 echo ""
-echo -e "${GRN}💡 Need help? Visit:${RST} https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android"
+echo -e "${GRN}💡 Need help? Visit:${RST} https://github.com/cloudaii/hermes_ai_agent"
