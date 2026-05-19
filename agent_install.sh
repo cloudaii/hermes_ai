@@ -12,7 +12,7 @@ RST='\033[0m'
 clear
 
 echo -e "${CYN}=====================================================${RST}"
-echo -e "${GRN}                   THEVOIDKERNEL"
+echo -e "${GRN}                   UNLOCKED"
 echo -e "${CYN}=====================================================${RST}"
 
 echo -e "${CYN}=====================================================${RST}"
@@ -49,7 +49,7 @@ echo -e "${CYN}===================================================${RST}"
 
 echo "📖 Type 'hermes --help' for more options"
 echo ""
-echo "💡 Need help? Visit: https://github.com/AbuZar-Ansarii/Hermes-Agent-On-Android"
+echo "💡 Need help? Visit: https://github.com/cloudaii/hermes_ai_agent"
 echo ""
 
 echo " "
